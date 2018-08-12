@@ -21,21 +21,19 @@
 
 ### 开发进度：
 
-（刚学golang，权当练习，虽然要实现的功能很简单，进度估计也会很慢）
 
-+ -init-初始代码结构
-+ / 主页
-+ /ip 返回来源IP.
-+ /uuid 返回UUID4.
-+ /user-agent 返回user-agent.
-+ /headers 返回 header 字典.
-+ /get 返回 GET 数据.
-+ /post 返回 POST 数据.
-+ /patch 返回 PATCH 数据.
-+ /put 返回 PUT 数据.
-+ /delete 返回 DELETE 数据
-+ /anything 返回 request（请求） 数据,包括使用的HTTP方法.
-+ /anything/:anything 返回 request（请求） 数据, 包括URL.
++ ✔️-init-初始代码结构
++ ✔️/ 主页
++ ❎/ip 返回来源IP.
++ ✔️/uuid 返回UUID4.
++ ✔️/user-agent 返回user-agent.
++ ✔️/headers 返回 header 字典.
++ ✔️/get 返回 GET 数据.
++ ✔️/post 返回 POST 数据.
++ ✔️/patch 返回 PATCH 数据.
++ ✔️/put 返回 PUT 数据.
++ ✔️/delete 返回 DELETE 数据
++ ✔️/anything 返回 request（请求） 数据,包括使用的HTTP方法.
 + /base64/:value 解码base64url编码的字符串.
 + /encoding/utf8 返回包含utf-8编码的页面数据.
 + /gzip 返回gzip压缩编码的数据.
@@ -70,9 +68,10 @@
 + /links/:n 返回 page containing n HTML links.
 + /image 返回 page containing an image based on sent Accept header.
 + /image/png 返回一个 PNG 图片.
-+ /image/jpeg 返回一个 JPEG 图片.
-+ /image/jpeg 返回一个 GIF 图片.
-+ /image/webp 返回一个 WEBP 图片.
-+ /image/svg 返回一个 SVG 图片.
++ ✔️/image/jpeg 返回一个 JPEG 图片.
++ ✔️/image/webp 返回一个 WEBP 图片.
++ ✔️/image/gif 返回一个 GIF 图片.
++ ✔️/image/bmp 返回一个 BMP 图片.
++ ✔️/image/svg 返回一个 SVG 图片.
 + /forms/post HTML POST表单提交
 + /xml 返回 XML
